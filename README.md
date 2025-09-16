@@ -1,0 +1,1 @@
+# Fiszki\n\nProjekt Blazor (.NET 9) dla aplikacji do nauki fiszek.\n\n## Uruchomienie lokalne\n- Wymagania: .NET SDK 9.x\n- Build: dotnet build\n- Uruchom: dotnet run --project .\\src\\Fiszki\\Fiszki\\Fiszki.csproj\n\n## Struktura\n- src/Fiszki/Fiszki (serwer i host dla klienta)\n- src/Fiszki/Fiszki.Client (klient WebAssembly)\n\n## Licencja\nMIT
