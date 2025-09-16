@@ -18,7 +18,8 @@ These instructions help Copilot Chat and inline completions produce consistent, 
 - TargetFramework: `net9.0`
 - Nullable and implicit usings enabled
 - Keep public API changes minimal; prefer additive changes
-- Use Polish in user-facing README/docs; English in code/comments is OK
+- Language: Use English for all generated content, documentation, commit messages, PR descriptions, and user-facing text. Code comments may also be in English.
+- Shell: Prefer Bash (Linux/WSL) in documentation and examples. Provide Windows PowerShell equivalents only when requested or when essential.
 - Use dependency injection and minimal APIs (Program.cs)
 
 ## Testing
@@ -29,7 +30,7 @@ These instructions help Copilot Chat and inline completions produce consistent, 
 ## Style
 
 - Keep patches small and focused; avoid noise formatting
-- For new features: include acceptance criteria and usage notes in PR description
+- For new features: include acceptance criteria and usage notes in PR description (in English)
 
 ## Secrets & config
 
