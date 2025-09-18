@@ -398,6 +398,9 @@ FodyWeavers.xsd
 *.msi
 *.msix
 *.msm
+ 
+# Local developer-only notes/configs (kept in Explorer, ignored by Git)
+/Local/
 *.msp
 
 # JetBrains Rider
@@ -482,7 +485,3 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
-
-#My
-Fiszki.txt
-implementation_plan.md

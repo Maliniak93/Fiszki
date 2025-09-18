@@ -13,4 +13,10 @@
     <PackageReference Include="MudBlazor" Version="7.*" />
   </ItemGroup>
 
+  <!-- Exclude environment-specific appsettings from static web assets to avoid compression negotiation issues -->
+  <ItemGroup>
+    <Content Remove="wwwroot\appsettings.Development.json" />
+    <Content Remove="wwwroot\appsettings.json" />
+  </ItemGroup>
+
 </Project>

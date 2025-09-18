@@ -23,4 +23,8 @@
     <ProjectReference Include="..\..\src\Fiszki\Fiszki.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Auth\" />
+  </ItemGroup>
+
 </Project>
